@@ -16,7 +16,7 @@ pt --version
 
 ## Usage 
 ```bash
-wpt -l
+pt -l
 ```
 This will display the list of installed programming languages and their package managers.
 
