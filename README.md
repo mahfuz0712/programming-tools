@@ -1,23 +1,47 @@
-# Windows Programming Tools
+# Programming Tools
 This tool displays how many programming languages and their package managers are installed. this tool saves time for the user to check the installed compilers/interpreters and their package managers.
 
 ## Installation
-* Go to the [release](https://github.com/mahfuz0712/windows-programming-tools/releases) page and download the latest release.
+### Windows
+* Go to the [release](https://github.com/mahfuz0712/programming-tools/releases) page and download the latest release.
 * Turn off the antivirus if it blocks the installation.
 * Run the installer and follow the instructions.
 * After installation, restart the terminal.
 
+## Confirmaton
+Type this command to confirm installation
+```bash
+pt --version
+```
+
+## Usage 
+```bash
+wpt -l
+```
+This will display the list of installed programming languages and their package managers.
+
+
+### linux
+Clone the repository and run the following command in your terminal:
+```bash
+cd /home/user/Downloads/
+git clone https://github.com/mahfuz0712/kali-programming-tools.git
+cd kali-programming-tools
+cd setup
+chmod +x install.sh
+./install.sh
+```
 
 
 ## Confirmaton
 Type this command to confirm installation
 ```bash
-wpt --version
+kpt --version
 ```
 
 ## Usage 
 ```bash
-wpt
+kpt
 ```
 This will display the list of installed programming languages and their package managers.
 

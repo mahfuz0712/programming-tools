@@ -1,4 +1,4 @@
-executables/
+dist/
 node_modules/
 setup/
 src/

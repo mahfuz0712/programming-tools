@@ -1,20 +1,26 @@
 {
-  "name": "windows-programming-tools",
+  "name": "programming-tools",
   "version": "1.0.0",
   "description": "A cli tool to inspect how many compilers or interpreters are installed of how many programming languages and their tools respectively",
   "main": "src/index.js",
   "scripts": {
     "test": "node src/index.js",
-    "build-windows": "pkg src/index.js --targets node16-windows-x64 --output executables/wpt.exe"
+    "build-windows": "pkg src/index.js --targets node16-windows-x64 --output dist/pt.exe",
+    "build-linux": "pkg src/index.js --targets node16-linux-x64 --output dist/pt",
+    "build-macos": "pkg src/index.js --targets node16-macos-x64 --output dist/pt_mac"
   },
-  "keywords": ["Windows Programming Tools, CyberSecurity", "Windows", "JavaScript", "Node JS"],
+  "keywords": [
+    "Programming Tools, CyberSecurity",
+    "JavaScript",
+    "Node JS"
+  ],
   "author": "Mohammad Mahfuz Rahman",
   "dependencies": {
-    "commander": "^13.0.0",
+    "chalk": "^4.1.2",
+    "commander": "^13.1.0",
+    "ora": "^5.4.1",
+    "strip-ansi": "^7.1.0",
     "table": "^6.9.0"
-  },
-  "devDependencies": {
-    
   },
   "license": "ISC"
 }
