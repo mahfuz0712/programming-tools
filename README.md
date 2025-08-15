@@ -22,26 +22,21 @@ This will display the list of installed programming languages and their package 
 
 
 ### linux
-Clone the repository and run the following command in your terminal:
+Download the latest release from the [release](https://github.com/mahfuz0712/programming-tools/releases) page and install it using the following command:
 ```bash
-cd /home/user/Downloads/
-git clone https://github.com/mahfuz0712/kali-programming-tools.git
-cd kali-programming-tools
-cd setup
-chmod +x install.sh
-./install.sh
+sudo dpkg -i programming-tools_1.0.0_amd64.deb
 ```
 
 
 ## Confirmaton
 Type this command to confirm installation
 ```bash
-kpt --version
+pt --version
 ```
 
 ## Usage 
 ```bash
-kpt
+pt -l
 ```
 This will display the list of installed programming languages and their package managers.
 
