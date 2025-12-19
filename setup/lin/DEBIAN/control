@@ -1,7 +1,0 @@
-Package: pt
-Version: 1.0.1
-Section: utils
-Priority: optional
-Architecture: all
-Maintainer: Mohammad Mahfuz Rahman <mahfuzrahman0712@gmail.com>
-Description: A cli tool to inspect how many compilers or interpreters are installed of how many programming languages and their tools respectively
