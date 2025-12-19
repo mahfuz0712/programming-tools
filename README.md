@@ -24,7 +24,7 @@ This will display the list of installed programming languages and their package 
 ### linux
 Download the latest release from the [release](https://github.com/mahfuz0712/programming-tools/releases) page and install it using the following command:
 ```bash
-sudo dpkg -i programming-tools_1.0.0_amd64.deb
+sudo apt install gdebi && sudo gdebi programming-tools_1.0.0_amd64.deb
 ```
 
 
