@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=PT
+Exec=/usr/local/bin/pt
+Icon=pt
+Type=Application
+Terminal=false
+Categories=Utility;
